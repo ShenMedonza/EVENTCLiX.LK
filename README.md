@@ -1,4 +1,4 @@
-# Eventclix.omline (HTML & CSS Website)
+# Eventclix.online (HTML & CSS Website)
 National School of Business Management
 
 Year 01 Semester 02 Semester Final Project
