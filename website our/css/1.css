@@ -13,7 +13,7 @@
   }
 
   section{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(29, 28, 28, 0.6)), url(https://www.gifcen.com/wp-content/uploads/2022/04/wallpaper-gif-12.gif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(29, 28, 28, 0.6)), url(https://assets.roar.media/Life/2017/09/Featured-Image-e1505121383658.jpg?w=1200);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -178,12 +178,25 @@
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 3px;
-    padding: 15px 35px;
+    padding: 15px 25px;
     border-radius: 50px;
     transition: 0.3s;
     transition-property: background;
     }
-    
+
+    .content .info-bt{
+      color: rgb(0, 0, 0);
+      background: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 3px;
+      padding: 15px 35px;
+      border-radius: 50px;
+      transition: 0.3s;
+      transition-property: background;
+      }
+
     .content .info-btn:hover{
     background: #ffffff;
     }
@@ -210,160 +223,161 @@
       text-align: center;
     }
     
-    .content-1 p{
+    .content-2 p{
       margin-right: 15px;
       line-height: 27px;
       text-align: center;
     }
 
-
-    footer {
-      bottom: 0;
-    }
-    
-    @media (max-height:800px) {
-      footer {
-          position: static;
-      }
-      header {
-          padding-top: 40px;
-      }
-    }
-    
-    .footer-distributed {
-      background-color: #2d2a30;
-      box-sizing: border-box;
+    .content-2{
+      display: flex;
+      justify-content: space-between;
+      padding: 150px 200px 200px ;
       width: 100%;
-      text-align: left;
-      font: bold 16px sans-serif;
-      padding: 50px 50px 20px 50px;
-      margin-top: 80px;
+      margin: 6rem auto 0 auto;
+      background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(29, 28, 28, 0.2)),url(https://i.natgeofe.com/n/d6bd5cdc-528f-4887-9cc3-3fb4e10d6651/sri-lanka-travel.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
     }
     
-    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
-      display: inline-block;
-      vertical-align: top;
-    }
-    
-    /* Footer left */
-    
-    .footer-distributed .footer-left {
-      width: 30%;
-    }
-    
-    .footer-distributed h3 {
-      color: #ffffff;
-      font: normal 36px 'Cookie', cursive;
-      margin: 0;
-    }
-    
-    
-    .footer-distributed h3 span {
-      color: #3F71EA;
-    }
-    
-    
-    /* Footer Center */
-    
-    .footer-distributed .footer-center {
-      width: 35%;
-    }
-    
-    .footer-distributed .footer-center i {
-      background-color: #33383b;
-      color: #ffffff;
-      font-size: 25px;
-      width: 38px;
-      height: 38px;
-      border-radius: 50%;
+    .content-2 h1{
+      margin: 10px 10px 45px;
+      padding-bottom: 50px;
+      font-size: 40px;
+      letter-spacing: 4px;
       text-align: center;
-      line-height: 42px;
-      margin: 10px 15px;
-      vertical-align: middle;
     }
     
-    .footer-distributed .footer-center i.fa-envelope {
-      font-size: 17px;
-      line-height: 38px;
+    .content-2 p{
+      margin-right: 15px;
+      line-height: 30px;
+      text-align: justify;
     }
-    
-    .footer-distributed .footer-center p {
-      display: inline-block;
-      color: #ffffff;
-      vertical-align: middle;
-      margin: 0;
+
+
+    .topic{
+      padding: 120px 200px 200px;
+      color: #fff;
+      opacity: 0.9;
     }
-    
-    .footer-distributed .footer-center p span {
-      display: block;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 2;
+
+    .header h3{
+      text-align: center;
+      padding: 30px 30px 40px;
+      font-size: 40px;
     }
-    
-    .footer-distributed .footer-center p a {
-      color: #3F71EA;
+
+    .topic p{
+      text-align: justify;
+      line-height: 25px;
+    }
+
+    .header-1 h3{
+      text-align: center;
+      padding: 80px 30px 40px;
+      font-size: 40px;
+    }
+
+    .all-content{
+        background: linear-gradient(rgba(12, 12, 12, 0.6), rgba(0, 0, 0, 0.6)), url(https://static01.nyt.com/images/2019/02/03/travel/03frugal-srilanka01/merlin_148552275_74c0d250-949c-46e0-b8a1-e6d499e992cf-superJumbo.jpg);
+
+    }
+
+
+
+
+    footer{
+      background-color: rgb(0, 0, 0,0.4);
+      padding: 80px 0 20px;
+      color: white; 
+  }
+  
+  
+  .footer-container{
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: space-around;
+      padding-bottom: 50px;
+  }
+  
+
+  .one-footer{
+    padding-top: 5px;
+  }
+
+  .one-footer img
+  {   
+      width: 50px;
+  }
+  
+  .one-footer img:hover
+  {   
+      width: 60px;
+  }
+  
+  
+  .one-footer p
+  {   
+      text-align: justify;
+  }
+  
+  
+  .two-footer ul li{
+      list-style-type: none;
+      line-height: 30px;
+      color: black;
+  }
+  
+  .two-footer ul li a{
+      color: rgb(255, 255, 255);
       text-decoration: none;
-      ;
-    }
-    
-    /* Footer Right */
-    
-    .footer-distributed .footer-right {
-      width: 30%;
-    }
-    
-    .footer-distributed .footer-company-about {
-      line-height: 20px;
-      color: #92999f;
-      font-size: 13px;
-      font-weight: normal;
-      margin: 0;
-    }
-    
-    .footer-distributed .footer-company-about span {
-      display: block;
-      color: #ffffff;
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-    
-    .footer-distributed .footer-icons {
-      margin-top: 25px;
-    }
-    
-    .footer-distributed .footer-icons a {
-      display: inline-block;
-      width: 35px;
-      height: 35px;
-      cursor: pointer;
-      background-color: #575555;
-      border-radius: 2px;
-      font-size: 20px;
-      color: #ffffff;
+  }
+  
+  .two-footer ul li a:hover{
+      color: rgb(255, 0, 0);
+  }
+  
+  .three-footer ul li{
+      list-style-type: none;
+      line-height: 30px;
+  }
+  
+  
+  .three-footer ul li:hover{
+      color: rgb(255, 0, 0);
+  }   
+  
+  
+  .icons{
+      padding-top: 100px;
+  }
+  
+  .icons a{
+      padding: 50px  5px 0;
+  }
+  
+  .copyright{
       text-align: center;
-      line-height: 35px;
-      margin-right: 3px;
-      margin-bottom: 5px;
-    }
-    
-    .footer-distributed .footer-icons a:hover {
-      background-color: #3F71EA;
-    }
-    
-    .footer-links a:hover {
-      color: #3F71EA;
-    }
-    
-    @media (max-width: 880px) {
-      .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
-          display: block;
-          width: 100%;
-          margin-bottom: 40px;
-          text-align: center;
-      }
-      .footer-distributed .footer-center i {
-          margin-left: 0;
-      }
-    }       
+      font-size: 10px;
+      font-weight: bold;
+      padding-top: 20px ;
+  }
+  
+  .fa {      
+      color: black;
+      width: 40px;
+    }  
+  
+  .icons i{
+      font-size: 20px;
+      background-color: aliceblue;
+      padding: 10px 14px 10px;
+      border-radius: 50px;
+  }
+  
+  .icons i:hover{
+      box-shadow: 0px 4px 20px red;
+  }
