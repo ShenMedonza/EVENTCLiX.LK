@@ -13,7 +13,7 @@
   }
 
   body{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(29, 28, 28, 0.6)), url(/events-link-images/concerts-image.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(29, 28, 28, 0.6)), url(/events-link-images/art-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
